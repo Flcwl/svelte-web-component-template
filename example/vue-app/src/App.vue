@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 <template>
   <div id="app">
     <counter-button>
-      <HelloWorld msg="Text" />
+      <HelloWorld msg="I am Text" />
     </counter-button>
   </div>
 </template>

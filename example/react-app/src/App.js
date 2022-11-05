@@ -1,7 +1,7 @@
 import './App.css';
 
-function Text () {
-  return <span>I am a text</span>
+function Text ({ children }) {
+  return <span>{children}</span>
 }
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1>Svelte Component in React App</h1>
       <counter-button count={3}>
-        <Text></Text>
+        <Text>I am a text</Text>
       </counter-button>
     </div>
   );
