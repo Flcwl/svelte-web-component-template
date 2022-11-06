@@ -1,3 +1,5 @@
+<svelte:options tag="app-root" />
+
 <script lang="ts">
   import Counter from '@/components/Counter.svelte'
 </script>
@@ -8,8 +10,8 @@
   </div>
 </main>
 
-<style lang="scss">
+<style>
   .container {
-    background-color: red;
+    width: 100%;
   }
 </style>
